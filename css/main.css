@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box;
+  /*margin: 0; */
+
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+ nav {
+  /* outline: 5px solid yellow;*/
+
+ }
+
+ ul{
+   outline: 2px solid red;/*mismo tamaño de su padre que viene a  ser nav*/
+   background-color:#2e2e2a ;
+   list-style: none;/* quita las viñetas*/
+   margin: 0;/*quita el espacio*/
+   padding: 0;/*quita el espacio dependiendo del navegador ponemos padding y margin para asegurarnos*/
+   line-height: 40px;/*para umentar el espacio */
+
+ }
+
+ li{
+
+   outline: 1px solid fuchsia;
+   width: 100px;
+   display: inline-block;
+   text-align: center;/*centra de acuerdo a su espacio*/
+ }
+
+ a{
+   outline: 2px solid green;
+   text-decoration: none;
+   display: block;/* convertirlo a bloque para hacer un espacio linkeabl*/
+   color: #fff;
+ }
+
+ a:hover{
+   background-color: #f9a91a;/*cuando pase el mouse cambie el fondo*/
+   color:#000;/*cuando pase el mouse cambie el color de la letra a negro*/
+ }
